@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+     
+        <title>Form</title>
+      
+    </head>
+    <body>
+        <form>
+            <div>
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="submit">
+                <input type="password" placeholder="password" name="password">
+            </div>
+
+            <div>
+                Favourite Colour?
+                <input type="radio" value="red" name="colour"> Red
+                <input type="radio" value="green" name="colour"> Green
+                <input type="radio" value="blue" name="colour"> Blue
+            </div>
+
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Italy">
+                    <option value="Germany">
+                </datalist>
+            </div>
+
+        </form>
+    </body>
+</html>
