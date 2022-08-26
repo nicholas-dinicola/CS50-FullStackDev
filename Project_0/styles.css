@@ -1,0 +1,23 @@
+#inner {
+    width: 50%;
+    margin: 0 auto;
+    align-self: center;
+    }
+
+#search-bar {
+    border: 1px solid rgb(48, 48, 162);
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 600px;
+    height: 100;
+    padding: 15px;
+}
+
+#search-button {
+    border: 1px solid rgb(48, 48, 162);
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 600px;
+    height: 100;
+    padding: 15px;
+}
