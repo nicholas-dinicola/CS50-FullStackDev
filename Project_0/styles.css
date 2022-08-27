@@ -2,22 +2,50 @@
     width: 50%;
     margin: 0 auto;
     align-self: center;
+    margin-top: 100px;
     }
 
 #search-bar {
     border: 1px solid rgb(48, 48, 162);
     border-radius: 5px;
-    background-color: aliceblue;
+    background-color: rgb(177, 185, 191);
     width: 600px;
     height: 100;
     padding: 15px;
 }
 
 #search-button {
-    border: 1px solid rgb(48, 48, 162);
+    border: 1px solid rgb(107, 107, 183);
     border-radius: 5px;
-    background-color: aliceblue;
-    width: 600px;
+    background-color: rgb(107, 107, 183);
+    width: 400px;
     height: 100;
     padding: 15px;
+    margin-top: 10px;
 }
+
+#search-button:hover {
+    background-color: rgb(87, 64, 109);
+  }
+
+#img_search:hover {
+    background-color: rgb(87, 64, 109);
+}
+
+#adv_search:hover {
+    background-color: rgb(87, 64, 109);
+}
+
+#goat_img {
+    width: 400px;
+    margin-bottom: 20px;
+    
+}
+
+body {
+    background-color: rgb(194, 172, 214);
+    transition: background-color 1000ms linear;
+}
+
+
+

@@ -9,23 +9,30 @@
     <body>
         <div class="container-fluid">
             <ul class="m-3 nav">
-                <li class="ms-auto nav-item">
-                    <a class="nav-link text-dark" href="image_search.html">Image Search</a>
+                <li  class="ms-auto nav-item search-button">
+                    <a id="img_search" class="nav-link text-dark" href="image_search.html">Image Search</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="advanced_search.html">Advanced Search</a>
+                    <a id="adv_search" class="nav-link text-dark" href="advanced_search.html">Advanced Search</a>
                 </li>
             </ul>
         </div>
         
         <nav class="navbar">
             <div class="container-fluid text-center">
+                
                 <form id="inner" action="https://google.com/search" method="get">
+                    <iframe 
+                        src="https://giphy.com/embed/fLRAdolRlMDcc" width="480" height="360" frameBorder="10" class="giphy-embed" allowFullScreen>
+                    </iframe>
+
                     
-                    <input id="search-bar" type="text" name="q" autocomplete="off" placeholder="Search">
+                    <input id="search-bar" type="text" name="q" autocomplete="off" placeholder="Let the Goat search for you">
 
                     <div class="col-auto">
-                        <input class="btn btn-light" type="submit" value="Google Search">
+                        <input id="search-button" class="btn btn-light" type="submit" value="Goat Search">
+                        <!-- Adding a name to the feeling lucky button includes the parameter in the URL -->
+                        <input id="search-button" type="submit" name="btnI" value="I'm feeling lucky">
                     </div>
                 
                 </form>
